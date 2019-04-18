@@ -1,0 +1,5 @@
+
+	<svg class="progress" width="50" height="50" viewBox="0 0 120 120">
+		<circle cx="60" cy="60" r="54" fill="none" stroke="#F8F3E1" stroke-width="4" />
+		<circle class="progress__value" cx="60" cy="60" r="54" fill="none" stroke="#A36833" stroke-width="4" />
+	</svg>

@@ -117,7 +117,10 @@ add_action( 'widgets_init', 'chamisal_widgets_init' );
  * Enqueue scripts and styles.
  */
 function chamisal_scripts() {
+	wp_register_style('optinmonster', "$blogPath/css/optin-monster.css", false, '1.0', 'screen');
+
 	wp_enqueue_style( 'chamisal-style', get_stylesheet_uri(),array(),filemtime(get_template_directory() . '/style.css') );
+	wp_enqueue_style('optinmonster');
 
 	// wp_enqueue_script( 'chamisal-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
